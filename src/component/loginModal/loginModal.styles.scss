@@ -1,0 +1,45 @@
+
+.login-input--name {
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.input-with-label {
+  display: flex;
+  padding: 0;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 6px;
+  align-self: stretch;
+  border-radius: 0;
+  .login-input {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+    background: #FFF;
+    box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+    width: 100%;
+    box-sizing:border-box;
+    padding: 12px 14px 12px 2rem;
+  }
+}
+.button--text {
+  margin-top: 16px;
+  color: #242731;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  text-transform: capitalize;
+}
+
+.login-header {
+  text-align: center;
+}

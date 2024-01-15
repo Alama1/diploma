@@ -1,0 +1,202 @@
+[
+  {
+    "image": "https://di-sitebuilder-assets.s3.amazonaws.com/generic-placeholder.png",
+    "title": "Exploring the Wonders of Nature",
+    "annotation": "Discover the beauty of the natural world and its secrets.Discover the beauty of the natural world and its secrets.Discover the beauty of the natural world and its secrets.Discover the beauty of the natural world and its secrets.Discover the beauty of the natural world and its secrets.y of the natural world and its secrets.Discover the beauty of the natural world and its secrets.y of the natural world and its secrets.Discover the beauty of the natural world and its secrets.y of the natural world and its secrets.Discover the beauty of the natural world and its secrets.y of the natural world and its secrets.Discover the beauty of the natural world and its secrets.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...",
+    "author_first_name": "John",
+    "author_last_name": "Doe",
+    "creation_day": "2023-01-15",
+    "tag": "Design"
+  },
+  {
+    "image": "https://di-sitebuilder-assets.s3.amazonaws.com/generic-placeholder.png",
+    "title": "The Art of Photography",
+    "annotation": "Capturing moments through the lens and telling stories.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...",
+    "author_first_name": "Jane",
+    "author_last_name": "Smith",
+    "creation_day": "2023-02-05",
+    "tag": "Product"
+  },
+  {
+    "image": "https://di-sitebuilder-assets.s3.amazonaws.com/generic-placeholder.png",
+    "title": "Mastering Software Engineering Principles",
+    "annotation": "A deep dive into the core principles of software engineering.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...",
+    "author_first_name": "Robert",
+    "author_last_name": "Johnson",
+    "creation_day": "2023-03-20",
+    "tag": "Software engineering"
+  },
+  {
+    "image": "https://di-sitebuilder-assets.s3.amazonaws.com/generic-placeholder.png",
+    "title": "Customer Success Strategies for Growth",
+    "annotation": "Unlocking the secrets to achieving customer success and business growth.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...",
+    "author_first_name": "Emily",
+    "author_last_name": "Williams",
+    "creation_day": "2023-04-10",
+    "tag": "Customer success"
+  },
+  {
+    "image": "https://di-sitebuilder-assets.s3.amazonaws.com/generic-placeholder.png",
+    "title": "Leadership in the Modern Workplace",
+    "annotation": "Navigating the challenges of leadership in today's dynamic environment.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...",
+    "author_first_name": "Michael",
+    "author_last_name": "Anderson",
+    "creation_day": "2023-05-02",
+    "tag": "Leadership"
+  },
+  {
+    "image": "https://di-sitebuilder-assets.s3.amazonaws.com/generic-placeholder.png",
+    "title": "Effective Project Management Techniques",
+    "annotation": "Strategies and tools for successful project management.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...",
+    "author_first_name": "Sarah",
+    "author_last_name": "Miller",
+    "creation_day": "2023-06-15",
+    "tag": "Management"
+  },
+  {
+    "image": "https://di-sitebuilder-assets.s3.amazonaws.com/generic-placeholder.png",
+    "title": "The Role of Design in Product Innovation",
+    "annotation": "How design thinking contributes to product innovation.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...",
+    "author_first_name": "Christopher",
+    "author_last_name": "Taylor",
+    "creation_day": "2023-07-08",
+    "tag": "Design"
+  },
+  {
+    "image": "https://di-sitebuilder-assets.s3.amazonaws.com/generic-placeholder.png",
+    "title": "Building High-Performing Development Teams",
+    "annotation": "Strategies for creating and leading high-performing development teams.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...",
+    "author_first_name": "Alex",
+    "author_last_name": "Brown",
+    "creation_day": "2023-08-21",
+    "tag": "Software engineering"
+  },
+  {
+    "image": "https://di-sitebuilder-assets.s3.amazonaws.com/generic-placeholder.png",
+    "title": "Innovative Product Launch Techniques",
+    "annotation": "Keys to a successful and innovative product launch.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...",
+    "author_first_name": "Grace",
+    "author_last_name": "Davis",
+    "creation_day": "2023-09-12",
+    "tag": "Product"
+  },
+  {
+    "image": "https://di-sitebuilder-assets.s3.amazonaws.com/generic-placeholder.png",
+    "title": "Strategies for Customer Retention",
+    "annotation": "Keeping customers satisfied and loyal to your brand.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...",
+    "author_first_name": "Daniel",
+    "author_last_name": "Clark",
+    "creation_day": "2023-10-05",
+    "tag": "Customer success"
+  },
+  {
+    "image": "https://di-sitebuilder-assets.s3.amazonaws.com/generic-placeholder.png",
+    "title": "The Art of Effective Communication in Leadership",
+    "annotation": "Communication strategies for effective leadership.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...",
+    "author_first_name": "Victoria",
+    "author_last_name": "White",
+    "creation_day": "2023-11-18",
+    "tag": "Leadership"
+  },
+  {
+    "image": "https://di-sitebuilder-assets.s3.amazonaws.com/generic-placeholder.png",
+    "title": "Balancing Priorities: A Guide to Time Management",
+    "annotation": "Time management tips for a more productive and balanced life.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...",
+    "author_first_name": "Jason",
+    "author_last_name": "Johnson",
+    "creation_day": "2023-12-03",
+    "tag": "Management"
+  },
+  {
+    "image": "https://di-sitebuilder-assets.s3.amazonaws.com/generic-placeholder.png",
+    "title": "The Role of UX Design in Software Development",
+    "annotation": "Exploring the impact of user experience design on software projects.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...",
+    "author_first_name": "Emma",
+    "author_last_name": "Johnson",
+    "creation_day": "2024-01-10",
+    "tag": "Design"
+  },
+  {
+    "image": "https://di-sitebuilder-assets.s3.amazonaws.com/generic-placeholder.png",
+    "title": "Agile Project Management: Principles and Practices",
+    "annotation": "Understanding the principles and practices of agile project management.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...",
+    "author_first_name": "Ryan",
+    "author_last_name": "Smith",
+    "creation_day": "2024-02-22",
+    "tag": "Management"
+  },
+  {
+    "image": "https://di-sitebuilder-assets.s3.amazonaws.com/generic-placeholder.png",
+    "title": "Innovations in Product Design",
+    "annotation": "Examining the latest trends and innovations in product design.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...",
+    "author_first_name": "Olivia",
+    "author_last_name": "Brown",
+    "creation_day": "2024-03-15",
+    "tag": "Product"
+  },
+  {
+    "image": "https://di-sitebuilder-assets.s3.amazonaws.com/generic-placeholder.png",
+    "title": "Customer Success Metrics: A Comprehensive Guide",
+    "annotation": "Measuring and optimizing customer success with key metrics.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...",
+    "author_first_name": "Ethan",
+    "author_last_name": "Jones",
+    "creation_day": "2024-04-05",
+    "tag": "Customer success"
+  },
+  {
+    "image": "https://di-sitebuilder-assets.s3.amazonaws.com/generic-placeholder.png",
+    "title": "The Art of Motivating Development Teams",
+    "annotation": "Motivational strategies for inspiring high performance in development teams.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...",
+    "author_first_name": "Sophia",
+    "author_last_name": "Lee",
+    "creation_day": "2024-05-20",
+    "tag": "Software engineering"
+  },
+  {
+    "image": "https://di-sitebuilder-assets.s3.amazonaws.com/generic-placeholder.png",
+    "title": "Effective Leadership Communication in Remote Teams",
+    "annotation": "Adapting communication strategies for effective leadership in remote settings.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...",
+    "author_first_name": "Matthew",
+    "author_last_name": "Taylor",
+    "creation_day": "2024-06-10",
+    "tag": "Leadership"
+  },
+  {
+    "image": "https://di-sitebuilder-assets.s3.amazonaws.com/generic-placeholder.png",
+    "title": "Inclusive Design: Building Products for Everyone",
+    "annotation": "The importance of inclusive design in creating products for diverse audiences.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...",
+    "author_first_name": "Ava",
+    "author_last_name": "Martin",
+    "creation_day": "2024-07-02",
+    "tag": "Design"
+  },
+  {
+    "image": "https://di-sitebuilder-assets.s3.amazonaws.com/generic-placeholder.png",
+    "title": "Strategies for Effective Time Management in Software Development",
+    "annotation": "Time management tips specifically tailored for software development projects.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ...",
+    "author_first_name": "Benjamin",
+    "author_last_name": "Williams",
+    "creation_day": "2024-08-15",
+    "tag": "Software engineering"
+  }
+]

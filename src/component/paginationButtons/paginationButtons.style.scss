@@ -1,0 +1,66 @@
+.pagination {
+  display: flex;
+  padding-top:20px;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+  border-top: 1px solid #EAECF0;
+  .nav-buttons {
+    height: 20px;
+    padding: 0;
+    align-items: center;
+    gap: 0;
+    .button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+      .arrow {
+        width: 20px;
+        height: 20px;
+      }
+      .button-text {
+        color: #475467;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+      }
+    }
+  }
+  .pagination-numbers {
+    display: flex;
+    padding: 0;
+    align-items: flex-start;
+    gap: 2px;
+    .pagination-buttons {
+      display: flex;
+      width: 40px;
+      height: 40px;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      .some-paddings {
+        display: flex;
+        width: 40px;
+        padding: 12px;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+        flex-shrink: 0;
+        align-self: stretch;
+      }
+    }
+  }
+  .next-button {
+    display: flex;
+    height: 20px;
+    padding: 0;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0;
+    flex: 1 0 0;
+  }
+}

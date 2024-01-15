@@ -1,0 +1,123 @@
+.subscribe-card {
+  display: flex;
+  min-width: 320px;
+  padding: 32px 32px 40px 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex: 1 0 0;
+  border-radius: 16px;
+  border: 1px solid #EAECF0;
+  background: #F9FAFB;
+  grid-area: ad-start;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  .icon-wrapper {
+    display: flex;
+    padding: 14px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid #EAECF0;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    .subscribe-icon {
+      width: 28px;
+      height: 28px;
+      flex-shrink: 0;
+    }
+  }
+  .card-text {
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+    .heading-and-text {
+      display: flex;
+      padding: 0;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+      align-self: stretch;
+      .title {
+        color: #101828;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px;
+        margin-top: -24px;
+      }
+      .text {
+        color: #475467;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        margin-top: -24px;
+      }
+    }
+    .email-capture {
+      display: flex;
+      padding: 8px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 16px;
+      align-self: stretch;
+      margin-top: -24px;
+      .input-field {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+        align-self: stretch;
+        .input {
+          overflow: hidden;
+          color: #667085;
+          text-overflow: ellipsis;
+          font-family: Inter;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px;
+          display: flex;
+          gap: 8px;
+          align-self: stretch;
+          border-radius: 8px;
+          border: 1px solid #D0D5DD;
+          background: #FFF;
+          box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+          box-sizing:border-box;
+          padding: 12px 14px 12px 2rem;
+        }
+        .text {
+          color:  #475467;
+          font-family: Inter;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 20px;
+        }
+      }
+      .button {
+        height: 24px;
+        margin-top: -24px;
+        background: #7F56D9;
+        display: flex;
+        padding: 12px 18px;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        align-self: stretch;
+        border-radius: 8px;
+        color: #fff;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        cursor: pointer;
+      }
+    }
+  }
+}

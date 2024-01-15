@@ -1,0 +1,164 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+  .home-header {
+    display: flex;
+    padding: 96px 0 96px 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    align-self: stretch;
+    .container {
+      display: flex;
+      max-width: 1280px;
+      padding: 0 32px;
+      flex-direction: column;
+      align-items: center;
+      gap: var(--spacing-4xl, 32px);
+      align-self: stretch;
+      .content {
+        display: flex;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 48px;
+        align-self: stretch;
+        .heading-text {
+          display: flex;
+          max-width: 768px;
+          padding: 0;
+          flex-direction: column;
+          align-items: center;
+          gap: 24px;
+          align-self: stretch;
+          .text {
+            color: var(--colors-text-text-tertiary-600, #475467);
+            text-align: center;
+            font-family: Inter;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+          }
+          .title {
+            display: flex;
+            padding: 0;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+            align-self: stretch;
+            .top-text {
+              color: #6941C6;
+              text-align: center;
+              font-family: Inter;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 24px;
+            }
+            .bottom-text {
+              color: #101828;
+              text-align: center;
+              font-family: Inter;
+              font-size: 48px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 60px;
+              letter-spacing: -0.96px;
+            }
+          }
+        }
+        .search {
+          max-width: 320px;
+          .input-with-label {
+            display: flex;
+            padding: 0;
+            flex-direction: row;
+            align-items: flex-start;
+            gap: 6px;
+            align-self: stretch;
+            border-radius: 0;
+            .input {
+              display: flex;
+              align-items: center;
+              gap: 8px;
+              align-self: stretch;
+              border-radius: 8px;
+              border: 1px solid #D0D5DD;
+              background: #FFF;
+              box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+              width: 300px;
+              box-sizing:border-box;
+              padding: 12px 14px 12px 2rem;
+            }
+            .search-icon {
+              width: 16px;
+              height: 16px;
+              position: absolute;
+              margin-left: 10px;
+              margin-top: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .home-blogs {
+    display: flex;
+    padding-bottom: 96px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    align-self: stretch;
+    .container {
+      display: flex;
+      max-width: 1280px;
+      padding: 0 32px;
+      flex-direction: column;
+      align-items: center;
+      gap: var(--spacing-7xl, 64px);
+      align-self: stretch;
+      .control-panel {
+        display: flex;
+        padding: 0;
+        align-items: flex-end;
+        gap: 32px;
+        align-self: stretch;
+        .sorting-tabs {
+          cursor: pointer;
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          gap: 20px;
+          flex: 1 0 0;
+          width: 864px;
+          border-bottom: 1px solid #EAECF0;
+        }
+        .sorting-dropdown {
+          .sorting-dropdown-selector {
+            width: 292px;
+            height: 24px;
+            position: relative;
+            bottom: 14px;
+          }
+        }
+      }
+      .content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 32px;
+        height: 1448px;
+        grid-template-areas:
+        "a b c"
+        "ad d e"
+        "f g h";
+      }
+    }
+
+  }
+}
