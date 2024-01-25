@@ -1,9 +1,9 @@
 import {useEffect, useRef, useState} from "react";
 import Modal from 'react-modal';
-import './loginModal.styles.scss'
+import './signUpModal.styles.scss'
 import {useForm} from "react-hook-form";
 
-const LoginModal = ({ onSubmit }) => {
+const SignUp = ({ onSubmit }) => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [requestError, setRequestError] = useState('')
 
@@ -35,7 +35,7 @@ const LoginModal = ({ onSubmit }) => {
     };
 
     const onModalSubmit = async (e) => {
-        const res = await fetch('http://78.137.54.103:4000/auth', {
+        const res = await fetch('http://78.137.54.103:4000/user', {
             headers: {
                 'Content-Type': 'application/json',
             },
@@ -53,8 +53,8 @@ const LoginModal = ({ onSubmit }) => {
 
     return (
         <div>
-            <div className='login-button' onClick={openModal}>
-                Login
+            <div className='sign-up-button' onClick={openModal}>
+                Sign up
             </div>
             <div className='modal'>
                 <Modal
@@ -66,13 +66,17 @@ const LoginModal = ({ onSubmit }) => {
                 >
                     <div>
                         <h1 className='login-header'>
-                            Login
+                            Sign up
                         </h1>
                     </div>
                     <form onSubmit={handleSubmit(onModalSubmit)}>
                         <div className='login-input--name'>Email:</div>
                         <div className='input-with-label'>
                             <input className='login-input' {...register('email', {required: true})}/>
+                        </div>
+                        <div className='login-input--name'>Username:</div>
+                        <div className='input-with-label'>
+                            <input className='login-input' {...register('username', {required: true})}/>
                         </div>
                         <div className='login-input--name'>Password:</div>
                         <div className='input-with-label'>
@@ -89,4 +93,4 @@ const LoginModal = ({ onSubmit }) => {
     );
 };
 
-export default LoginModal
+export default SignUp

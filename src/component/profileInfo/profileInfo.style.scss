@@ -1,0 +1,14 @@
+.profile-info {
+  width: 51px;
+  height: 24px;
+  display: flex;
+  padding: 10px var(--spacing-xl, 16px);
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-sm, 6px);
+  border-radius: 8px;
+  cursor: pointer;
+  &:hover {
+    background-color: #f5f3f1;
+  }
+}

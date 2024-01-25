@@ -1,7 +1,7 @@
 import './blogCard.style.scss'
 import arrow from '../../assets/arrow-up-right.svg'
 
-const BlogCard = ( { img, tag, annotation, title, author_first_name, author_last_name, date} ) => {
+const BlogCard = ( { img, tag, annotation, author_name} ) => {
     return (
         <div className='blog-card'>
             <img alt='Blog card image' src={img} className='blog-card--image'/>
@@ -23,8 +23,7 @@ const BlogCard = ( { img, tag, annotation, title, author_first_name, author_last
                 <div className='author'>
                     <img className='avatar' alt='Author avatar' src='https://southernautomotivegroup.com.au/wp-content/uploads/2015/04/generic-placeholder-person-300x300.png'/>
                     <div className='author-name-and-data'>
-                        <a className='author-name'>{`${author_first_name} ${author_last_name}`}</a>
-                        <a className='date'>{date}</a>
+                        <a className='author-name'>{`${author_name}`}</a>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,63 @@
+.upload-button--title {
+  width: 80px;
+  height: 24px;
+  display: flex;
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: var(--spacing-sm, 6px);
+  border-radius: 8px;
+  background-color: #7F56D9;
+  color: var(--component-colors-components-buttons-primary-button-primary-fg, #FFF);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  cursor: pointer;
+}
+.upload-modal {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  .upload-input--name {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+
+.confirm-work-button {
+  border-radius: 4px;
+  gap: 10px;
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  .confirm-work-button--confirm {
+    background-color: #61dafb;
+    height: 25px;
+    width: 100px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #000;
+    cursor: pointer;
+    &:hover {
+      border: 1px solid #fff;
+    }
+  }
+  .confirm-work-button--regenerate {
+    background-color: #7F56D9;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #000;
+    cursor: pointer;
+    &:hover {
+      border: 1px solid #fff;
+    }
+  }
+}

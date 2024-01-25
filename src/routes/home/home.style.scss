@@ -94,6 +94,19 @@
               box-sizing:border-box;
               padding: 12px 14px 12px 2rem;
             }
+            .input-precision {
+              display: flex;
+              align-items: center;
+              gap: 8px;
+              width: 110px;
+              align-self: stretch;
+              border-radius: 8px;
+              border: 1px solid #D0D5DD;
+              background: #FFF;
+              box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+              box-sizing:border-box;
+              padding: 12px 14px 12px 4px;
+            }
             .search-icon {
               width: 16px;
               height: 16px;

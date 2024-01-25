@@ -3,9 +3,13 @@ import {Fragment, useEffect, useState} from "react";
 import {Outlet} from "react-router-dom";
 import DropDownMenu from "../dropDownMenu/dropDownMenu.component";
 import LoginModal from "../loginModal/loginModal.component";
+import SignUp from "../signUpModal/signUpModal.component";
+import ArtUpload from "../artUploadModal/artUploadModal.component";
+import ProfileInfo from "../profileInfo/profileInfo.component";
 
 const Header = () => {
     const [isLoggedIn, setIsLoggedIn] = useState(false)
+    const [userData, setUserData] = useState({username: 'undefined'})
     const onSelect = (option) => {
         console.log(option)
     }
@@ -14,13 +18,38 @@ const Header = () => {
        localStorage.setItem('token', token)
         setIsLoggedIn(true)
     }
+    const onSignUpSubmit = (token) => {
+        setIsLoggedIn(false)
+    }
+
+    const checkToken = async () => {
+        const token = localStorage.getItem('token')
+        const res = await fetch('http://78.137.54.103:4000/check-token', {
+            headers: {
+                'Content-Type': 'application/json',
+                'Access-Control-Allow-Origin': '*'
+            },
+            method: 'POST',
+            body: JSON.stringify({"token": token})
+        })
+        return await res.json()
+
+    }
 
     useEffect(() => {
         try {
             const token = localStorage.getItem('token')
             if (token.length > 0) {
-                setIsLoggedIn(true)
+                checkToken().then(res => {
+                    if(res.Status === 'Error') {
+                        setIsLoggedIn(false)
+                    } else {
+                        setIsLoggedIn(true)
+                        setUserData(res.Message.user)
+                    }
+                })
             }
+
         } catch (e) {
             setIsLoggedIn(false)
         }
@@ -62,9 +91,9 @@ const Header = () => {
                     </div>
                     <div className='navigation-buttons'>
                         {!isLoggedIn ? <LoginModal onSubmit={onLoginSubmit}/>: null}
-                        <div className='sign-up-button'>
-                            Sign up
-                        </div>
+                        {!isLoggedIn ? <SignUp onSubmit={onSignUpSubmit}/>: null}
+                        {isLoggedIn ? <ProfileInfo username={`Profile: ${userData.username}`}/>: null }
+                        {isLoggedIn ? <ArtUpload onSubmit={onSignUpSubmit}/>: null}
                     </div>
                 </div>
             </div>
