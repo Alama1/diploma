@@ -1,0 +1,10 @@
+{
+  "mongo": {
+    "authString": "mongodb+srv://backend-diploma:<password>@diploma-backend.80ke5vr.mongodb.net/?retryWrites=true&w=majority",
+    "authPassword": "",
+    "databaseName": "test"
+  },
+  "express": {
+    "port": "3000"
+  }
+}
